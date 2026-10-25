@@ -136,7 +136,7 @@ cluster_ids_set = set(df_clustered["restaurant_id"].astype(int).tolist())
 # IDs in clustering output but NOT in the warehouse
 missing = cluster_ids_set - fact_ids
 if missing:
-    print(f"      ⚠️  {len(missing)} restaurant_id(s) in clustering output "
+    print(f"      [WARN] {len(missing)} restaurant_id(s) in clustering output "
           f"NOT found in fact_restaurant:")
     # Show up to 10 examples
     for rid in sorted(missing)[:10]:
@@ -144,12 +144,12 @@ if missing:
     if len(missing) > 10:
         print(f"         ... and {len(missing) - 10} more.")
 else:
-    print(f"      ✅  All {len(cluster_ids_set):,} restaurant_ids matched.")
+    print(f"      [OK] All {len(cluster_ids_set):,} restaurant_ids matched.")
 
 # IDs in fact but not clustered (informational)
 not_clustered = fact_ids - cluster_ids_set
 if not_clustered:
-    print(f"      ℹ️  {len(not_clustered):,} restaurant(s) in the warehouse "
+    print(f"      [INFO] {len(not_clustered):,} restaurant(s) in the warehouse "
           f"have no cluster assignment.")
 
 # ===========================================================================
@@ -258,7 +258,7 @@ if len(above_median) > 0:
     save_query(df_d, "underserved_locations.csv",
                f"Underserved Locations for '{budget_label}' Cluster (fewest restaurants)")
 else:
-    print("  ⚠️  Could not determine a budget & highly-rated cluster (no data).")
+    print("  [WARN] Could not determine a budget & highly-rated cluster (no data).")
 
 # ----- Grouped bar chart: Cluster distribution by city -----
 print(f"\n{'─' * 60}")
@@ -284,10 +284,10 @@ plt.tight_layout()
 chart_path = os.path.join(FIG_DIR, "olap_cluster_distribution.png")
 plt.savefig(chart_path, dpi=150, bbox_inches="tight")
 plt.close()
-print(f"  📊 Chart saved to {chart_path}")
+print(f"  [PLOT] Chart saved to {chart_path}")
 
 # ---------------------------------------------------------------------------
 conn.close()
 print(f"\n{'=' * 60}")
-print("✅  Cluster loading and OLAP queries completed.")
+print("[OK] Cluster loading and OLAP queries completed.")
 print("=" * 60)

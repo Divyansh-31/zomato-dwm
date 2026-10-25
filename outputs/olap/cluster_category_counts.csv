@@ -1,0 +1,21 @@
+cluster_label,category,restaurant_count
+Budget Hidden Gems,Dine-out,91
+Budget Hidden Gems,Delivery,75
+Budget Hidden Gems,Desserts,70
+Budget Hidden Gems,Buffet,67
+Budget Hidden Gems,Cafes,57
+"Budget, Popular",Dine-out,108
+"Budget, Popular",Cafes,96
+"Budget, Popular",Buffet,94
+"Budget, Popular",Desserts,93
+"Budget, Popular",Delivery,80
+Everyday Low-Cost,Cafes,126
+Everyday Low-Cost,Buffet,123
+Everyday Low-Cost,Delivery,122
+Everyday Low-Cost,Dine-out,118
+Everyday Low-Cost,Desserts,111
+Premium Fine Dining,Dine-out,123
+Premium Fine Dining,Buffet,114
+Premium Fine Dining,Delivery,112
+Premium Fine Dining,Desserts,111
+Premium Fine Dining,Cafes,109

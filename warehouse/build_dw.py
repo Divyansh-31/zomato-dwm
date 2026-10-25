@@ -250,5 +250,5 @@ for tbl in ["dim_location", "dim_cuisine", "dim_type", "dim_cluster", "fact_rest
     print(f"      {tbl:25s} : {count:,} rows")
 
 conn.close()
-print(f"\n✅  Data warehouse saved to {DB_PATH}")
+print(f"\n[OK] Data warehouse saved to {DB_PATH}")
 print("=" * 60)

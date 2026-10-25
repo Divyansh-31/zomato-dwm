@@ -93,7 +93,7 @@ plt.tight_layout()
 fig_path = os.path.join(FIG_DIR, "olap_rollup.png")
 plt.savefig(fig_path, dpi=150)
 plt.close()
-print(f"  📊 Bar chart saved to {fig_path}\n")
+print(f"  [PLOT] Bar chart saved to {fig_path}\n")
 
 # ===========================================================================
 # 2. DRILL-DOWN: Avg cost & rating by LOCATION within the top city
@@ -229,5 +229,5 @@ save_and_show(df_top10, "top10_cuisines.csv",
 # ---------------------------------------------------------------------------
 conn.close()
 print("=" * 60)
-print("✅  All OLAP queries completed.")
+print("[OK] All OLAP queries completed.")
 print("=" * 60)

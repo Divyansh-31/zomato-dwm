@@ -1,11 +1,7 @@
 primary_cuisine,restaurant_count,avg_rate,avg_cost
-North Indian,2272,3.54,586.22
-South Indian,991,3.57,332.41
-Biryani,578,3.48,441.78
-Cafe,571,3.77,626.8
-Chinese,550,3.58,594.73
-Fast Food,515,3.5,309.9
-Bakery,400,3.59,393.38
-Desserts,359,3.81,381.62
-Continental,289,3.89,1091.52
-Beverages,261,3.66,275.48
+North Indian,536,3.68,1307.56
+Italian,309,3.73,1320.55
+Fast Food,302,3.66,1246.52
+Biryani,300,3.69,1244.67
+Cafe,298,3.68,1252.52
+South Indian,255,3.74,1301.18

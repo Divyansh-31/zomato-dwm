@@ -1,0 +1,25 @@
+cluster_label,city,location,avg_cost,restaurant_count
+Budget Hidden Gems,Indiranagar,Indiranagar,1191.27,63
+Budget Hidden Gems,Brigade Road,Brigade Road,1190.0,60
+Budget Hidden Gems,Koramangala 5th Block,Koramangala 5th Block,1159.09,55
+Budget Hidden Gems,BTM,BTM,1142.98,57
+Budget Hidden Gems,Jayanagar,Jayanagar,1142.86,63
+Budget Hidden Gems,Whitefield,Whitefield,1082.26,62
+"Budget, Popular",Koramangala 5th Block,Koramangala 5th Block,1472.56,82
+"Budget, Popular",BTM,BTM,1421.62,74
+"Budget, Popular",Jayanagar,Jayanagar,1399.26,68
+"Budget, Popular",Indiranagar,Indiranagar,1388.27,81
+"Budget, Popular",Brigade Road,Brigade Road,1347.56,82
+"Budget, Popular",Whitefield,Whitefield,1307.14,84
+Everyday Low-Cost,Brigade Road,Brigade Road,656.25,96
+Everyday Low-Cost,BTM,BTM,655.56,99
+Everyday Low-Cost,Whitefield,Whitefield,635.29,85
+Everyday Low-Cost,Indiranagar,Indiranagar,623.75,120
+Everyday Low-Cost,Koramangala 5th Block,Koramangala 5th Block,619.34,106
+Everyday Low-Cost,Jayanagar,Jayanagar,590.43,94
+Premium Fine Dining,Brigade Road,Brigade Road,2005.91,93
+Premium Fine Dining,Jayanagar,Jayanagar,1993.88,98
+Premium Fine Dining,Indiranagar,Indiranagar,1972.15,79
+Premium Fine Dining,BTM,BTM,1953.7,108
+Premium Fine Dining,Koramangala 5th Block,Koramangala 5th Block,1937.27,110
+Premium Fine Dining,Whitefield,Whitefield,1922.84,81
