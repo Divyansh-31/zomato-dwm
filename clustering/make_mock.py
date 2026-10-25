@@ -72,7 +72,7 @@ def generate_mock(n=2000, output_path="data/processed/zomato_clean.csv"):
 
     df = pd.DataFrame(data)[CONTRACT_COLUMNS]
     df.to_csv(output_path, index=False)
-    print(f"✅ Generated {n} mock rows → {output_path}")
+    print(f"[OK] Generated {n} mock rows -> {output_path}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,4 @@
+algorithm,n_clusters,silhouette,davies_bouldin,calinski_harabasz
+KMeans,4,0.2639,1.1059,743.14
+Agglomerative,4,0.2039,1.3762,558.93
+DBSCAN,1,,,

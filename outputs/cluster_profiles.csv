@@ -1,0 +1,5 @@
+cluster_id,label,size,avg_rate,avg_cost,avg_votes,top_cuisines
+0,Premium Fine Dining,569,3.922,1964.15,246.1,"North Indian, Italian, South Indian"
+1,Budget Hidden Gems,360,3.708,1151.25,21.5,"North Indian, Cafe, Biryani"
+2,Everyday Low-Cost,600,3.848,629.83,240.8,"North Indian, Biryani, Fast Food"
+3,"Budget, Popular",471,3.212,1388.22,226.3,"North Indian, Fast Food, Biryani"
